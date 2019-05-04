@@ -1,0 +1,43 @@
+
+Over view of Flutter:
+
+It is a technology which will reduce the time you need to create an app.
+This technology can produce pixel-perfect designs for iOS and Andriod 
+
+
+
+What is Flutter and why you should use it?
+
+what tools do you need?
+
+What can you achieve with Flutter?
+
+Is Flutter the right framework for you ?
+
+
+
+Flutter is a framework to build apps from a single code base.
+Humming bird is the new project announced by google to bring flutter to web.
+-> Flutter increase producitvity , not only we include code base for both Andriod and iOS but we can also leverage hot reload feature 
+-> It is fast , it uses "Skia" for rendering . It is the same library used by Chrome Browser and Chrome
+   It uses "Ahead of Time(AOT)" compilation to increase the free
+-> Free and Open source
+->Pixel pefect with replication of iOS UI with the "Cupertino" widgets and andriod's UI with "Material" widgets , so  its easy for devlopers and designers to bring device specific experience to the users.
+
+Sever great apps built with flutter :
+ flutter.io/showcase
+ itsallwidgets.com
+
+Necessary Tools :
+->PC or MAC
+-> Flutter SDK -bit.ly/flutterSDK
+
+->Android /iOS Environment
+->Device or Emulator/Simulator
+Editor
+
+------------------------
+
+Flutter uses Dart , stronngly typed object-oriented programming language developed by google
+-----------------------
+
