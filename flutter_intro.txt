@@ -1,5 +1,5 @@
 
-Over view of Flutter:
+Overview of Flutter:
 
 It is a technology which will reduce the time you need to create an app.
 This technology can produce pixel-perfect designs for iOS and Andriod 
