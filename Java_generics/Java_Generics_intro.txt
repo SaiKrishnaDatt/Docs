@@ -37,12 +37,15 @@ How do generics intract with inheritance ?
 
 Implementing a generic Type
 -----------------------
-
 AgeComparator implements Comparator<Person>
+
+
 
 Passing a parameter to a generic Type:
 -------------------------------------
 Reverser<T>  implements Comparator<T>
+
+
 
 
 Type Bounds
