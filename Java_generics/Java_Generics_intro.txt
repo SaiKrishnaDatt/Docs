@@ -52,3 +52,57 @@ Type Bounds
 -----------
 SortedPair<T extends Comparable<T>>
 
+
+
+Can we have generics on methods? Collection.sort() working ?
+
+
+Generics on Methods:
+public class SortingExamples<T>
+{
+	public T min(List<T> values)
+	{
+
+	}
+}
+
+without Generics:
+----------------------------
+public static Object min(List values, Comparator comparator)
+{
+	if(Values.isEmpty())
+	{
+	throw new IllegalArgumentException("Lis is empty, cannot find minimum");
+	}
+
+	Object lowestElement = values.get(0);
+	for(int i=1;i<values.size();i++)
+	{
+	final Object element = values.get(i);
+	if(compartor.compare(element,lowestElement)< 0)
+	{
+	lowestElement=element;
+	}
+	}
+}
+
+
+
+
+
+Syntax for generics on methods:
+---------------------------------
+public static <T> Object min (){
+	
+}
+
+Above is correct syntax;
+
+
+below are incorrect syntax
+--------------------------
+<T> public static Object min (){}
+
+public static Object <T> min (){}
+
+---------------------------------
