@@ -1,1 +1,51 @@
 #Generics in Java
+
+Why do we actually need Generics , what are the problems to solve:
+
+String result = (String) list.get(0);
+System.out.println(result);
+
+so this code is just printing out string that is first value in the list.
+
+when we run this code we might encouter below error:
+ClassCastException :
+java.lang.Integer cannot be cast to jaa.lang.String
+
+
+Reason for the Exception :
+
+List list = new ArrayList();  //Collections can contain any Object. Collections are heterogenous 
+list.add("a");                //We can add both String and Integers
+list.add("b");               //So that presents us with Type-safty problem .
+list.add(1);
+
+
+So we are not sure what type of data our list contains but most of the times we want list to only contain a certain type of Object. Generics solves this problem.
+
+List<String> list = new ArrayList<>();  //This list containing only String
+list.add("a");
+list.add("b");
+list.add(1);    //
+
+Generics Stop runtime errors at compile time
+
+How do generics intract with inheritance ?
+
+-> Implement a Genric Type 
+-> Pass Up a Type Parameter 
+-> Type Bounds : "Extends keyword is used here"
+
+Implementing a generic Type
+-----------------------
+
+AgeComparator implements Comparator<Person>
+
+Passing a parameter to a generic Type:
+-------------------------------------
+Reverser<T>  implements Comparator<T>
+
+
+Type Bounds
+-----------
+SortedPair<T extends Comparable<T>>
+
