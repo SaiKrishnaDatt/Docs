@@ -106,3 +106,13 @@ below are incorrect syntax
 public static Object <T> min (){}
 
 ---------------------------------
+
+
+
+public static <T> T min (List<T> values,Comparator<T> comparator){
+	
+}
+
+static <T,U extends Comparable<? super U>> Comparator<T> comparing(Function<? super T,? extends U> keyExtractor)
+
+? above is a wildcard
