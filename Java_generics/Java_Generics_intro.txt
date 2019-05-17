@@ -116,3 +116,13 @@ public static <T> T min (List<T> values,Comparator<T> comparator){
 static <T,U extends Comparable<? super U>> Comparator<T> comparing(Function<? super T,? extends U> keyExtractor)
 
 ? above is a wildcard
+
+
+Upper bounded
+Lis<? extends cls>
+
+Lower Bounded
+List< ? super cls>
+
+Unbound
+List<?>
